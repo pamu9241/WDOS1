@@ -1,0 +1,1196 @@
+header{
+    color: black;
+    text-align: center;
+    font-size: 24px;
+    font-family:serif;
+}  
+
+/*Navigation bar*/
+
+.h_ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    background-color: #141414;
+}
+
+.nav_li{
+    margin: 0px;
+}
+
+.nav_a{
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: antiquewhite;
+}
+
+.nav_li :hover a{
+    color: yellow;
+}
+
+.nav_li2{
+    display: none;
+    position: absolute;
+    color: azure;
+    background-color: aqua;
+    border: 1px solid orange;
+    box-shadow: 0 2px 5px rgb(5, 248, 208, 0.1)
+}
+
+.nav_li:hover>ul{
+    display: inherit;
+}
+
+.logo{
+    position: absolute;
+    width: 150px;
+    height: auto;
+    margin-top: -130px;
+    margin-left: 20px;
+}
+
+
+/*Home Page*/
+
+.h_pi{
+    width: 1330px;
+    height: auto;
+}
+.kylie{
+    position: absolute;
+    font-size: 96px;
+    margin-top: -300px;
+    margin-left: 580px;
+    color: rgb(255, 215, 0);
+    font-style:italic ;
+    text-shadow: 8px 8px 16px #000000;
+}
+
+.kylie_a{
+    color:#FFF9C9;
+    font-size: 32px;
+    margin-top: -180px;
+    text-align: center;
+    text-shadow: -8px -8px 16px red;
+}
+
+.h_a{
+    font-size: 28px;
+    margin-top: 170px;
+    margin-left: 100px;
+}
+
+.h_p{
+    font-size: 22px;
+    margin-left: 120px;
+}
+
+.points{
+    font-size: 22px;
+    margin-left: 200px;
+}
+
+.h_pi2{
+    margin-top: -400px;
+    margin-left: 850px;
+    width: 400px;
+    height: auto;
+    box-shadow: 20px 40px 30px;
+}
+
+.h_pi2:hover {
+    transform: translateX(50px) ;
+    transform: scale(1.1,1.1);
+}
+
+.pw{
+    margin-top: 500px;
+}
+
+.h_div1{
+    position: absolute;
+    background-color:#cdbeb1 ;
+    margin-top: 60px;
+    width: 360px;
+    height: 560px;
+}
+
+.h_d_i1{
+    position: absolute;
+    width: 300px;
+    height: auto;
+    padding: 30px;
+}
+
+.h_div2{
+    background-color: #cdbeb1;
+    margin-left: 490px;
+    margin-top: 60px;
+    width: 360px;
+    height: 560px;
+}
+
+.h_d_i2{
+    width: 300px;
+    height: auto;
+    padding: 30px;
+}
+
+.h_div2_h3{
+    text-align: center;
+}
+
+.h_div3{
+    background-color: #cdbeb1;
+    margin-left: 970px;
+    margin-top: -580px;
+    width: 360px;
+    height: 560px;
+}
+
+.h_d_i3{
+    width: 300px;
+    height: auto;
+    padding: 30px;
+}
+
+.div_h{
+    text-align: center;
+    color: #CD7F32;
+}
+
+.h_li{
+    margin-top: 20px;
+}
+
+
+
+/*Hotel Branches*/
+
+.colombo_b{
+    position: absolute;
+    margin-top: 40px;
+    width: 400px;
+    height: auto;
+    background-color: #cdbeb1
+}
+
+.br_d{
+    font-size: 20px;
+    text-align: justify;
+    padding: 10px;
+}
+
+.c_map{
+    position: relative;
+    margin-left: 465px;
+    margin-top: 55px;
+}
+
+.c_hotel{
+    position: absolute;
+    margin-top: 60px;
+    margin-left: 70px;
+    width: 400px;
+    height: auto;
+    border-radius: 20px;
+}
+
+.galle_b{
+    position: relative;
+    width: 400px;
+    height:auto;
+    margin-top: 50px;
+    background-color: #cdbeb1;
+}
+
+.g_map{
+    position: absolute;
+    margin-left: 465px;
+    margin-top: -300px;
+}
+
+.resort{
+    position: absolute;
+    margin-top: -290px;
+    margin-left: 930px;
+    width: 400px;
+    height: auto;
+    border-radius: 20px;
+}
+
+.wellington_b{
+    position: relative;
+    width: 400px;
+    height:auto;
+    margin-top: 80px;
+    background-color: #cdbeb1;
+}
+
+.w_map{
+    position: absolute;
+    margin-left: 465px;
+    margin-top: -260px;
+}
+
+.nz{
+    position: absolute;
+    margin-top: -270px;
+    margin-left: 930px;
+    width: 400px;
+    height: auto;
+    border-radius: 20px;
+}
+
+.info_t{
+    margin-top: 100px;
+    margin-left: 430px;
+}
+.info{
+    align-items: center;
+    font-size: 24px;
+}
+
+
+
+/*Adventures*/
+
+        /*Hiking and Camping*/
+
+.adv_h_c{
+    position: relative;
+    font-size: 20px;
+    font-family: "Copperplate",serif;
+    background-color: #E0115F;
+}
+.ella{
+    position: absolute;
+    margin: 0;
+    width: 300px;
+    height: auto;
+    background-color: #cdbeb1;
+}
+
+.ella_i{
+    width: 280px;
+    height: auto;
+    padding: 10px;
+}
+
+.ohiya{
+    position: absolute;
+    margin-left: 500px;
+    width: 300px;
+    height: auto;
+    background-color: #cdbeb1;
+}
+
+.ohiya_i{
+    width: 280px;
+    height: auto;
+    padding: 10px;
+}
+
+.meemure{
+    position: absolute;
+    margin-left: 1000px;
+    width: 300px;
+    height: auto;
+    background-color:  #cdbeb1;
+}
+
+.meemure_i{
+    width: 280px;
+    height: auto;
+    padding: 10px;
+}
+
+.maps_c_h{
+    display: grid;
+    margin-top: 600px;
+    grid-template-columns: 400px  400px 400px;
+    grid-column-gap:70px ;
+}
+
+.adv_d{
+    padding: 10px;
+    text-align: justify;
+}
+.adv_b_w{
+    position: relative;
+    font-size: 20px;
+    font-family: "Copperplate",serif;
+    background-color: #E0115F;
+}
+
+.sinharaja{
+    position: absolute;
+    width: 300px;
+    height: auto;
+    background-color:  #cdbeb1;
+}
+
+.sinharaja_i{
+    width: 280px;
+    height: auto;    
+    padding: 10px;
+}
+
+.kumana{
+    position: absolute;
+    margin-left: 500px;
+    width: 300px;
+    height: auto;
+    background-color:  #cdbeb1;
+}
+
+.kumana_i{
+    width: 280px;
+    height: auto; 
+    padding: 10px;
+}
+
+.anawilundawa{
+    position: absolute;
+    margin-left: 1000px;
+    width: 300px;
+    height: auto;
+    background-color:  #cdbeb1;
+}
+
+.anawilundawa_i{
+    width: 280px;
+    height: auto;  
+    padding: 10px;
+}
+.adv_bd{
+    padding: 10px;
+    text-align: justify;
+}
+
+.maps_b_w{
+    display: grid;
+    margin-top: 660px;
+    grid-template-columns: 400px  400px 400px;
+    grid-column-gap:70px ;
+}
+
+
+
+/*Restaurants*/
+.res_min_pic{
+    width: 1330px;
+    height: auto;
+}
+
+.que{
+    font-style: oblique;
+    font-size: 36px;
+    font-family: "Times New Roman", Times, serif;
+    position: absolute;
+    margin-top:-350px ;
+    margin-left: 480px;
+    color:#CD7F32;
+    box-shadow: 16px 16px 8px black;
+}
+
+.about_res{
+    color: rgb(25, 25, 112);
+    font-size: 22px;
+    font-family: "Times New Roman", Times, serif;
+    text-align: center;
+}
+
+.events{
+    position: relative;
+    margin-top: 80px;
+}
+
+.event1_i{
+    margin-left: 100px;
+    width: 500px;
+    height: auto;
+}
+
+.event2_i{
+    position: absolute;
+    width: 500px;
+    height: auto;
+    margin-top: -340px;
+    margin-left: 750px;
+}
+
+.restaurant_t{
+    margin-top: 30px;
+    margin-left: 140px;
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    grid-column-gap:80px ;
+    margin-bottom: 30px;
+}
+
+.type_1{
+    width: 300px;
+    height: auto;
+    background-color: #cdbeb1;
+}
+
+.type_ab{
+    padding: 10px;
+    font-size: 18px;
+    text-align: justify;
+}
+.type_h{
+    text-align: center;
+}
+
+.type_2{
+    width: 300px;
+    height: auto;
+    background-color: #cdbeb1;
+}
+
+.type_3{
+    width: 300px;
+    height: auto;
+    background-color: #cdbeb1;
+}
+
+
+.type_2_i , .type_3_i , .type_1_i {
+    width: 250px;
+    height: auto;
+    padding: 25px;
+}
+ 
+.menu{
+    color: #e0fffc;
+    background-color: #ad1c45;
+    align-content: center;
+    font-size: 24px;
+    border-radius: 18px;
+    font-family: "Times New Roman", Times, serif;
+}
+.res_m{
+    text-decoration: none;
+    color: white;
+}
+
+.info{
+    margin-bottom: 30px;
+}
+
+
+
+/*Bookings*/
+
+form{
+    font-size: 20px;
+}
+
+.room_div{
+    position: relative;
+    font-size: 20px;
+    font-family: "Copperplate",serif;
+    background-color: #E0115F;
+}
+
+.roomCon{
+    margin-left: 650px;
+    margin-top: -490px;
+    position: absolute;
+    display: grid;
+    grid-template-columns:280px  280px;
+    grid-template-rows: 173px 13px;
+    grid-row-gap:20px ;
+    grid-column-gap:20px ;
+}
+
+.pics{
+    width:280px ;
+    height: 173px;
+}
+
+input[type=submit], input[type=reset] {
+    height: 30px;
+    width: 250px;
+    color: white;
+    font-size: 24px;
+    border: 55px;
+    border-radius:3px;
+    background-color: #008CBA;
+    margin-bottom: 30px;
+}
+.adv_div{
+    position: relative;
+    font-size: 20px;
+    font-family: "Copperplate",serif;
+    background-color: #E0115F;
+}
+
+.advCon{
+    display: grid;
+    margin-left: 650px;
+    margin-top: -600px;
+    position: absolute;
+    grid-template-columns:280px  280px;
+    grid-row-gap:20px ;
+    grid-column-gap:20px ;
+}
+.advpics{
+    width:280px ;
+    height: 173px;
+}
+
+/*All Pages*/
+.b_logo{
+    position: absolute;
+    width: 200px;
+    height: auto;
+}
+
+.box {
+    border:solid #e0fffc .1em;
+    font-size:23px;
+    text-align: center;
+    color: white;
+    margin: 1em;
+    margin-left: 300px;
+    background:#000000;
+}
+
+.boxCon{
+    position: static;
+    background-color: #000000;
+    width: 1335px;
+    display: grid;
+    grid-template-columns: 650px  650px;
+    grid-template-rows: 80px 80px 80px 80px;
+}
+
+.f_l{
+    color: white;
+    text-decoration: none;
+}
+
+.f_l:hover{
+    color: yellow;
+}
+.footer{
+    background:#000000;
+    color: white;
+    border:solid #e0fffc .1em;
+    text-align: center;
+}
+
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 700px){
+    
+header{
+    margin-left: 280px;
+    font-size: 12px;
+}  
+
+/*Navigation bar*/
+
+.h_ul{
+    height: 50px;
+    width: 500px;
+    list-style: none;
+    display: flex;
+}
+
+.nav_li{
+    margin: 0px;
+}
+
+.nav_a{
+    font-size: 15px;
+    display: block;
+    padding: 5px 10px;
+}
+
+.nav_li2{
+    display: none;
+    position: absolute;
+    border: 0.5px solid orange;
+    box-shadow: 0 1px 2.5px rgb(5, 248, 208, 0.1)
+}
+
+.nav_li:hover>ul{
+    display: inherit;
+}
+
+.logo{
+    position: absolute;
+    width: 75px;
+    height: auto;
+    margin-top: -80px;
+    margin-left: 10px;
+}
+
+
+/*Home Page*/
+
+.h_pi{
+    width:540px;
+    height: auto;
+}
+.kylie{
+    position: absolute;
+    font-size:30px;
+    margin-top: -120px;
+    margin-left:260px;
+    text-shadow: 4px 4px 8px #000000;
+}
+
+.kylie_a{
+    position: absolute;
+    font-size: 12px;
+    margin-top: -70px;
+    margin-left: 230px;
+    text-align: center;
+    text-shadow: -32px -32px 64px red;
+}
+
+.h_a{
+    font-size: 14px;
+    margin-top:15px;
+    margin-left: 50px;
+}
+
+.h_p{
+    font-size: 11px;
+    margin-left: 60px;
+}
+
+.points{
+    font-size: 11px;
+    margin-left: 80px;
+}
+
+.h_pi2{
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 130px;
+    width: 300px;
+    height: auto;
+    box-shadow: 10px 20px 15px;
+}
+
+.h_pi2:hover {
+    transform: translateX(50px) ;
+    transform: scale(1.1,1.1);
+}
+
+.pw{
+    margin-top: 500px;
+}
+
+.h_div1{
+    position: absolute;
+    background-color:#cdbeb1 ;
+    margin-top: 440px;
+    margin-left: 180px;
+    width: 200px;
+    height:420px;
+}
+
+.div_h{
+    font-size: 14px
+}
+
+.h_d_i1{
+    position: absolute;
+    width: 150px;
+    height: auto;
+    padding: 24px;
+}
+
+.h_div2{
+    position: relative;
+    margin-left: 180px;
+    margin-top: 900px;
+    width: 200px;
+    height: 420px;
+}
+
+.h_d_i2{
+    width: 150px;
+    height: auto;
+    padding: 24px;
+}
+.h_div2_h3{
+    text-align: center;
+}
+
+.h_div3{
+    margin-left: 180px;
+    margin-top: 0px;
+    width: 200px;
+    height: 420px;
+}
+
+.h_d_i3{
+    width: 150px;
+    height: auto;
+    padding: 24px;
+}
+
+.h_li{
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+
+
+/*Hotel Branches*/
+
+.colombo_b{
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 20px;
+    width: 500px;
+    height: 170px;
+}
+
+.br_d{
+    font-size: 15px;
+    text-align: justify;
+    padding: 5px;
+}
+
+.colombo_h{
+    font-size: 20px;
+}
+
+.c_map{
+    width: 200px;
+    height: 200px;
+    position: relative;
+    margin-left:00px;
+    margin-top: 200px;
+}
+
+.c_hotel{
+    position: relative;
+    margin-top: -300px;
+    margin-left: 250px;
+    width: 250px;
+    height: 200px;
+    border-radius: 20px;
+}
+
+.galle_b{
+    position: relative;
+    width: 500px;
+    height:170px;
+    margin-left: 20px;
+    margin-top: 50px;
+}
+
+.g_map{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    margin-left: 00px;
+    margin-top: 20px;
+}
+
+.resort{
+    position: relative;
+    margin-top: -330px;
+    margin-left: 250px;
+    width:300px;
+    height: 200px;
+    border-radius: 20px;
+}
+
+.wellington_b{
+    position: relative;
+    width: 500px;
+    height:170px;
+    margin-top: 50px;
+    margin-left: 20px;
+}
+
+.w_map{
+    position: relative;
+    margin-left: 00px;
+    margin-top: 20px;
+    width: 200px;
+    height: 200px;
+}
+
+.nz{
+    position: relative;
+    margin-top: -330px;
+    margin-left: 250px;
+    width: 300px;
+    height: 200px;
+    border-radius: 20px;
+}
+
+.info_t{
+    margin-top: 50px;
+    margin-left: 70px;
+}
+
+.info{
+    align-items: center;
+    font-size: 12px;
+}
+
+
+
+/*Adventures*/
+
+/*Hiking and Camping*/
+
+.adv_h_c{
+    position: relative;
+    width:540px ;
+    font-size: 10px;
+    font-family: "Copperplate",serif;
+}
+
+.ella{
+    position: absolute;
+    margin: 0;
+    width: 540px;
+    height: auto;
+}
+
+.ella_i{
+    position: relative;
+    width: 200px;
+    height: auto;
+    margin-top: -150px;
+    margin-left: 250px;
+    padding: 10px;
+}
+
+.ohiya{
+    position: relative;
+    margin-left: 00px;
+    margin-top: 340px;
+    width: 540px;
+    height: auto;
+}
+
+.ohiya_i{
+    position: relative;
+    width: 200px;
+    height: auto;
+    margin-top: -80px;
+    margin-left: 250px;
+    padding: 10px;
+}
+
+.meemure{
+    position: relative;
+    margin-left: 00px;
+    margin-top: 0px;
+    width: 540px;
+    height: auto;
+}
+
+.meemure_i{
+    position: relative;
+    width: 200px;
+    height: auto;
+    margin-top: -80px;
+    margin-left: 250px;
+    padding: 10px;
+}
+
+.maps_c_h{
+    display: grid;
+    margin-left: 70px;
+    margin-top: 50px;
+    grid-template-rows: 200px 200px 200px;
+    grid-template-columns: 200px;
+    grid-row-gap: 50px;
+}
+
+.adv_d{
+    padding: 10px;
+    text-align: justify;
+}
+
+.adv_b_w{
+    margin-top: 70px;
+    position: relative;
+    width: 540px;
+    font-size: 10px;
+}
+
+.sinharaja{
+    position: relative;
+    width: 540px;
+    height: auto;
+}
+
+.sinharaja_i{
+    position: relative;
+    margin-top: 00px;
+    margin-left: 150px;
+    width: 200px;
+    height: auto;    
+    padding: 5px;
+}
+
+.kumana{
+    margin-left: 00px;
+    position: relative;
+    width: 540px;
+    height: auto;
+}
+
+.kumana_i{
+    position: relative;
+    margin-top: 00px;
+    margin-left: 150px;
+    width: 200px;
+    height: auto; 
+    padding: 5px;
+}
+
+.anawilundawa{
+    position: relative;
+    margin-left:0px;
+    width: 540px;
+    height: auto;
+}
+
+.anawilundawa_i{
+    position: relative;
+    margin-top: 00px;
+    margin-left: 150px;
+    width: 200px;
+    height: auto;  
+    padding: 5px;
+}
+
+.maps_b_w{
+    display: grid;
+    margin-left: 70px;
+    margin-top: 50px;
+    grid-template-rows: 200px 200px 200px;
+    grid-template-columns: 200px;
+    grid-column-gap:70px ;
+}
+
+
+
+/*Restaurants*/
+.res_min_pic{
+    width: 540px;
+    height: auto;
+}
+
+.que{
+    font-style: oblique;
+    font-size: 18px;
+    font-family: "Times New Roman", Times, serif;
+    position: relative;
+    margin-top:-30px ;
+    margin-left:40px;
+    color:#CD7F32;
+    box-shadow: 4px 4px 2px black;
+}
+
+.about_res{
+    position: relative;
+    width:500px;
+    font-size: 12px;
+    text-align: center;
+}
+
+.events{
+    position: relative;
+    margin-top: 00px;
+}
+
+.event1_i{
+    position: relative;
+    margin-left: 100px;
+    width: 300px;
+    height: auto;
+}
+
+.event2_i{
+    position: relative;
+    width: 300px;
+    height: auto;
+    margin-top: 0px;
+    margin-left: 100px;
+}
+
+.restaurant_t{
+    position: relative;
+    margin-top: 30px;
+    margin-left: 20px;
+    display: grid;
+    grid-template-rows: 150px 150px 150px;
+    grid-template-columns: 300px;
+    grid-column-gap:80px ;    
+    grid-row-gap:80px ;
+    margin-bottom: 30px;
+}
+
+.type_1{
+    position: relative;
+    width: 500px;
+    height: 300px;
+}
+
+.type_1_i {
+    position: relative;
+    margin-top: 00px;
+    width: 200px;
+    height: auto;
+    padding: px;
+}
+
+.type_2{
+    position: relative;
+    margin-top: 90px;
+    width: 500px;
+    height: 300px;
+}
+
+.type_2_i {
+    position: relative;
+    margin-top: 0px;
+    width: 200px;
+    height: auto;
+    padding: px;
+}
+
+.type_3{
+    position: relative;
+    margin-top: 180px;
+    width: 500px;
+    height: 300px;
+}
+
+.type_3_i {
+    position: relative;
+    margin-top: 0px;
+    width: 200px;
+    height: auto;
+    padding: px;
+}
+
+.type_h{
+    font-size: 20px;
+    text-align: center;
+}
+
+.type_ab{
+    padding: 10px;
+    font-size: 14px;
+    text-align: justify;
+}
+
+.bu_d{
+    position: relative;
+    margin-top: -100px;
+    margin-left: 300px;
+}
+
+
+
+/*Bookings*/
+
+form{
+    font-size: 10px;
+}
+
+.room_div{
+    position: relative;
+    font-size: 15px;
+}
+
+.roomCon{
+    margin-top: 00px;
+    margin-left: 00px;
+    position: relative;
+    display: grid;
+    grid-template-columns:180px  180px;
+    grid-template-rows: 93px 93px;
+    grid-row-gap:20px ;
+    grid-column-gap:20px ;
+}
+
+.pics , .advpics{
+    width:180px ;
+    height: 93px;
+}
+
+input[type=submit] {
+    height: 30px;
+    width: 250px;
+    font-size: 24px;
+    border: 55px;
+    margin-bottom: 30px;
+}
+.adv_div{
+    position: relative;
+    font-size: 15px;
+}
+
+.advCon{
+    display: grid;
+    margin-left: 00px;
+    margin-top: 00px;
+    position: relative;
+    grid-template-columns:180px  180px;
+    grid-row-gap:20px ;
+    grid-column-gap:20px ;
+}
+
+/*All Pages*/
+.b_logo{
+    position: absolute;
+    width: 200px;
+    height: auto;
+}
+
+.box {
+    border:solid #e0fffc .1em;
+    font-size:23px;
+    text-align: center;
+    margin: 1em;
+    margin-left: 170px;
+}
+
+.boxCon{
+    padding: 20px;
+    position: relative;
+    width: 500px;
+    display: grid;
+    grid-template-rows:80px 80px 80px 80px 80px 80px 80px 80px;
+    grid-template-columns:350px;
+}
+
+.f_l{
+    color: white;
+    text-decoration: none;
+}
+
+.f_l:hover{
+    color: yellow;
+}
+
+.footer{
+    width: 540px;
+    position: relative;
+    background:#000000;
+    color: white;
+    border:solid #e0fffc .1em;
+    text-align: center;
+}
+}
